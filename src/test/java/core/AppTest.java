@@ -11,10 +11,5 @@ public class AppTest {
 	  org.testng.Assert.assertEquals("abc", "abc", "Error message ");
 	  
   }
-  
-  @Test(enabled =true)
-  public void test2() {
-	  
-	  org.testng.Assert.assertEquals("klm", "abc", "Error message ");
-  }
+ 
 }
