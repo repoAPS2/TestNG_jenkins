@@ -8,6 +8,13 @@ public class AppTest {
   @Test(enabled =true)
   public void test() {
 	  
-	  org.testng.Assert.assertEquals("abd", "abc", "Error message ");
+	  org.testng.Assert.assertEquals("abc", "abc", "Error message ");
+	  
+  }
+  
+  @Test(enabled =true)
+  public void test2() {
+	  
+	  org.testng.Assert.assertEquals("klm", "abc", "Error message ");
   }
 }
